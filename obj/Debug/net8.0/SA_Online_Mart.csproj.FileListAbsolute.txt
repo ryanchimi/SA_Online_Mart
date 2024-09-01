@@ -1,0 +1,8 @@
+D:\Documents\C# learning\SA_Online_Mart\obj\Debug\net8.0\SA_Online_Mart.csproj.AssemblyReference.cache
+D:\Documents\C# learning\SA_Online_Mart\obj\Debug\net8.0\SA_Online_Mart.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\C# learning\SA_Online_Mart\obj\Debug\net8.0\SA_Online_Mart.AssemblyInfoInputs.cache
+D:\Documents\C# learning\SA_Online_Mart\obj\Debug\net8.0\SA_Online_Mart.AssemblyInfo.cs
+D:\Documents\C# learning\SA_Online_Mart\obj\Debug\net8.0\SA_Online_Mart.csproj.CoreCompileInputs.cache
+D:\Documents\C# learning\SA_Online_Mart\obj\Debug\net8.0\SA_Online_Mart.MvcApplicationPartsAssemblyInfo.cache
+D:\Documents\C# learning\SA_Online_Mart\obj\Debug\net8.0\SA_Online_Mart.RazorAssemblyInfo.cache
+D:\Documents\C# learning\SA_Online_Mart\obj\Debug\net8.0\SA_Online_Mart.RazorAssemblyInfo.cs

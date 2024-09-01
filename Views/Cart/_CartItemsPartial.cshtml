@@ -1,0 +1,36 @@
+﻿@model Cart
+
+<table id="cartItems">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Items != null && Model.Items.Any())
+        {
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.Product.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>R @item.Product.Price</td>
+                    <td>
+                        <button onclick="addItemToCart(@item.Product.Id, 1)">+</button>
+                        <button onclick="removeItemFromCart(@item.Product.Id)">-</button>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4">Your cart is empty.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<strong>Total:</strong> <span id="cartTotal">R @Model.TotalValue</span>

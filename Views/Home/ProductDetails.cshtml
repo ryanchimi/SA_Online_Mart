@@ -1,0 +1,11 @@
+﻿@model SA_Online_Mart.Models.Product
+
+<h2>@Model.Name</h2>
+<div class="product-detail">
+    <img src="~/@Model.ImageUrl" alt="@Model.Name" />
+    <div class="product-info">
+        <p>@Model.Description</p>
+        <h3>Price: R @Model.Price</h3>
+        @* <button class="add-to-cart">Add to Cart</button> *@
+    </div>
+</div>

@@ -1,0 +1,28 @@
+﻿@model IEnumerable<SA_Online_Mart.Models.Product>
+
+<h2>Manage Products</h2>
+<button class="add-btn">Add New Product</button>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Description</td>
+                <td>R @product.Price</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
